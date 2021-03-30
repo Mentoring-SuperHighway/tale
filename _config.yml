@@ -17,6 +17,12 @@ guest:
 markdown:       kramdown
 include:
   - _pages
+  
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
 
 # Assets
 sass:
