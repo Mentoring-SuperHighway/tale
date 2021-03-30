@@ -7,10 +7,11 @@ url:            "https://Mentoring-SuperHighway.github.io"
 google_analytics: UA—XXXXXXXX-X
 
 # Author
-author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+authors:
+  krish:
+        display_name: Krish Shah
+        email: mailto:2003kshah@gmail.com
+        github: https://github.com/krish-shahh/
 
 # Build settings
 markdown:       kramdown
