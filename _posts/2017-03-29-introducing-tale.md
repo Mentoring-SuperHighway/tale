@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing Tale"
-author: "Chester"
+author: guest
 comments: true
 tags: Tale
 ---
