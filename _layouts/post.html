@@ -5,8 +5,9 @@ layout: default
 <div class="post">
   <div class="post-info">
     
-    {% assign author = site.authors[page.author] %}
-
+{% assign author = site[page.author] %}
+Written by {{ author.name }}
+    
     {% if page.date %}
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -19,8 +20,6 @@ layout: default
   {{ content }}
 </div>
 
-{% assign author = site.authors[page.author] %}
-        {% include  author.html %}
 
 {% if page.comments %}
   {% include disqus_comments.html %}
