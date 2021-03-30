@@ -12,6 +12,7 @@ authors:
         display_name: Krish Shah
         email: mailto:2003kshah@gmail.com
         github: https://github.com/krish-shahh/
+        avatar: images/avatar.png
 
 # Build settings
 markdown:       kramdown
