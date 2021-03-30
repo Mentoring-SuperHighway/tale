@@ -10,6 +10,8 @@ google_analytics: UA—XXXXXXXX-X
 krish:
     name: Krish Shah
     email: 2003kshah@gmail.com
+guest: 
+    name: Guest Person
 
 # Build settings
 markdown:       kramdown
